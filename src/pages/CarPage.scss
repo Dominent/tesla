@@ -55,11 +55,17 @@
 }
 
 .description__row {
-  margin-bottom: 80px;
+  // margin-bottom: 80px;
+  margin: 70px auto;
+  max-width: 80vw;
+  color: whitesmoke;
+  text-align: justify;
+
+  h1,
+  h3 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
   p {
-    max-width: 80vw;
-    margin: auto;
-    color: whitesmoke;
-    text-align: justify;
   }
 }

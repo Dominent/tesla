@@ -43,7 +43,8 @@ function CarPage({ chosen }) {
       </div>
       <div className="description__row">
         <h1>{chosen.name}</h1>
-        <h3>Km. {chosen.mileage}</h3>
+        <h3>Km: {chosen.mileage}</h3>
+        <h3>Year: {chosen.year}</h3>
         <p>{chosen.description}</p>
       </div>
     </div>
