@@ -1,0 +1,154 @@
+.landing__header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.landing__header__left {
+  h3 {
+    position: absolute;
+    width: 236px;
+    height: 30px;
+    left: 75px;
+    top: 157px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  h1 {
+    position: absolute;
+    width: 761px;
+    height: 160px;
+    left: 75px;
+    top: 203px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    color: #ffffff;
+  }
+
+  p {
+    position: absolute;
+    width: 486px;
+    height: 132px;
+    left: 75px;
+    top: 420px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+  }
+
+  button {
+    position: absolute;
+    width: 196px;
+    height: 58px;
+    left: 75px;
+    top: 604px;
+
+    background: #cc0000;
+
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+    border: none;
+  }
+  h5 {
+    position: absolute;
+    width: 134px;
+    height: 36px;
+    left: 109px;
+    top: 675px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+
+    color: #ffffff;
+  }
+}
+
+.landing__header__right {
+  img {
+    position: absolute;
+    width: 1024px;
+    height: 700px;
+    left: 548px;
+    top: 116px;
+  }
+}
+
+#landing__header__right__vector {
+  position: absolute;
+  width: 740.02px;
+  height: 744.1px;
+  left: 680px;
+  top: 80.46px;
+  transform: rotate(-94.19deg);
+}
+
+.MuiSvgIcon-root {
+  position: absolute;
+  width: 50px !important;
+  height: 1189px !important;
+  left: 685px;
+  top: 115px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.car__card {
+  position: relative;
+  align-items: center;
+  margin: 24px 8px;
+  height: 366px;
+  width: 608px;
+  border-radius: 15px;
+  overflow: hidden;
+  li {
+    list-style: none;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    font-size: 24px;
+    line-height: 25px;
+    color: white;
+  }
+  img {
+    max-width: 100%;
+    transition: transform 1.5s;
+    &:hover {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+  }
+  &:hover li {
+    opacity: 1;
+  }
+}
+
+.cars__list {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  justify-content: space-evenly;
+}

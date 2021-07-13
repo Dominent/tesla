@@ -1,0 +1,64 @@
+.navbar {
+  .landing__nav {
+    position: absolute;
+    width: 1303px;
+    height: 30px;
+    left: 76px;
+    top: 30px;
+    img {
+      position: absolute;
+      width: 238px;
+      height: 36px;
+      left: -28px;
+      top: 30px;
+    }
+  }
+}
+
+#nav__home {
+  position: absolute;
+  width: 43px;
+  height: 30px;
+  left: 1010px;
+  top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+#nav__aboutUs {
+  position: absolute;
+  width: 43px;
+  height: 30px;
+  left: 1103px;
+  top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+#nav__contacts {
+  position: absolute;
+  width: 92px;
+  height: 30px;
+  left: 1196px;
+  top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
